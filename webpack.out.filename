@@ -1,0 +1,11 @@
+webpackconfig.out.filename配置項說明
+
+| Template                 | Description |備註
+| ------------------------ | ----------- |--------
+| [absolute-resource-path] | The absolute filename | 死字符串
+| [all-loaders]            | Automatic and explicit loaders and params up to the name of the first loader | 死字符串
+| [hash]                   | The hash of the module identifier | 固定的hash
+| [id]                     | The module identifier | 數字
+| [loaders]                | Explicit loaders and params up to the name of the first loader | 死字符串
+| [resource]               | The path used to resolve the file and any query params used on the first loader | 死字符串
+| [resource-path]          | The path used to resolve the file without any query params | 死字符串
