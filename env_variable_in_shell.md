@@ -8,6 +8,7 @@ echo %foo%
 2. Bash:
 ```
 foo=bar
+echo $foo
 ```
 3. Powershell:
 ```
