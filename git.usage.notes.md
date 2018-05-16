@@ -1,7 +1,6 @@
 
 
-##reset a single file
-
+## reset a single file
 `git reset commitid -- file`
 
 	staged: 	+D
@@ -11,7 +10,7 @@
 
 	staged:		D
 
-##rebase
+## rebase
 git rebase -i commitid
 
 `pick up`
