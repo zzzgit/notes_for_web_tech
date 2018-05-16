@@ -1,6 +1,6 @@
 
 
-reset a single file:
+##reset a single file
 
 `git reset commitid -- file`
 
@@ -10,3 +10,10 @@ reset a single file:
 `git checkout commitid -- file`
 
 	staged:		D
+
+##rebase
+git rebase -i commitid
+
+`pick up`
+`squash`
+`fixup`
