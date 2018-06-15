@@ -11,15 +11,10 @@
 	staged:		D
 
 ## rebase
-`git rebase -i commitid`
+`git rebase -i commitid //在本分支，相對於本分支的commit`
 
-`pick up  //正常选中`
-
-`reword   //选中，并且修改提交信息`
-
-`squash   //会将当前commit与上一个commit合并`
-
-`fixup    //与squash相同，但不会保存当前commit的提交信息`
+`git checkout feature`
+`git rebase -i master //在本分支，相對另外一個分支的最後一個commit`
 
 ## how many diff commits
 `git log product...develop | grep Author | wc -l`
