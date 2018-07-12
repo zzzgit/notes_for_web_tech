@@ -1,0 +1,8 @@
+alias gadd='git add'
+alias gcommit='git commit'
+alias gpull='git pull'
+alias gpush='git push'
+alias lsx='ls -Gh'
+alias md='mkdir'
+alias mvx='mv -i'
+alias ren='mv -i'
